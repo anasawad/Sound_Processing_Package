@@ -1,0 +1,59 @@
+C:\Documents and Settings\Muhammad\Desktop\Bin\TFSound\Garbe.Sound.dll
+C:\Documents and Settings\Muhammad\Desktop\Bin\TFSound\Garbe.Sound.pdb
+C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\obj\Debug\Garbe.Sound.dll
+C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\obj\Debug\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\Bin\TFSound\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\Bin\TFSound\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\audio_process_src\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\audio_process_src\Sound\obj\Debug\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\audio_process_src\Sound\obj\Debug\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\audio_process_src-Template\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\audio_process_src-Template\Sound\obj\Debug\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\Sound effect\audio_process_src-Template\Sound\obj\Debug\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\Bin\TFSound\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\Bin\TFSound\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\audio_process_ package-Template\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\audio_process_ package-Template\Sound\obj\Debug\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\audio_process_ package-Template\Sound\obj\Debug\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Debug\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\DSP lab 6\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Debug\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\Bin\TFSound\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\Bin\TFSound\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Debug\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Debug\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\bin\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\bin\Garbe.Sound.pdb
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\bin\Debug\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\bin\Debug\Garbe.Sound.pdb
+D:\FCIS 2010-2011\DSP\DSP_lab_4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\bin\Debug\Garbe.Sound.dll
+D:\FCIS 2010-2011\DSP\DSP_lab_4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\bin\Debug\Garbe.Sound.pdb
+D:\FCIS 2010-2011\DSP\DSP_lab_4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\FCIS 2010-2011\DSP\DSP_lab_4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\Garbe.Sound.dll
+D:\FCIS 2010-2011\DSP\DSP_lab_4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\Garbe.Sound.pdb
+E:\FciS\The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\bin\Debug\Garbe.Sound.dll
+E:\FciS\The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\bin\Debug\Garbe.Sound.pdb
+E:\FciS\The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\ResolveAssemblyReference.cache
+E:\FciS\The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\Garbe.Sound.dll
+E:\FciS\The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\Garbe.Sound.pdb
+E:\FciS\Undergraduate\[4th]The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\bin\Debug\Garbe.Sound.dll
+E:\FciS\Undergraduate\[4th]The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\bin\Debug\Garbe.Sound.pdb
+E:\FciS\Undergraduate\[4th]The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\ResolveAssemblyReference.cache
+E:\FciS\Undergraduate\[4th]The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\Garbe.Sound.dll
+E:\FciS\Undergraduate\[4th]The Fourth Year\First Semester\Digital Signal Processing\labs\4\DSP lab 4\Audio Processing\audio_process_ framwork\Sound\obj\Debug\Garbe.Sound.pdb
+D:\Fcis\4th Year\1st Term\DSP\Labs and Sections\Lab_Sec6\Audio Process Framwork\Sound\bin\Debug\Garbe.Sound.dll
+D:\Fcis\4th Year\1st Term\DSP\Labs and Sections\Lab_Sec6\Audio Process Framwork\Sound\bin\Debug\Garbe.Sound.pdb
+D:\Fcis\4th Year\1st Term\DSP\Labs and Sections\Lab_Sec6\Audio Process Framwork\Sound\obj\Debug\ResolveAssemblyReference.cache
+D:\Fcis\4th Year\1st Term\DSP\Labs and Sections\Lab_Sec6\Audio Process Framwork\Sound\obj\Debug\Garbe.Sound.dll
+D:\Fcis\4th Year\1st Term\DSP\Labs and Sections\Lab_Sec6\Audio Process Framwork\Sound\obj\Debug\Garbe.Sound.pdb
+C:\Users\Anas A. Ismail\Documents\Visual Studio 2010\Projects\Sound\bin\Debug\Garbe.Sound.dll
+C:\Users\Anas A. Ismail\Documents\Visual Studio 2010\Projects\Sound\bin\Debug\Garbe.Sound.pdb
+C:\Users\Anas A. Ismail\Documents\Visual Studio 2010\Projects\Sound\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anas A. Ismail\Documents\Visual Studio 2010\Projects\Sound\obj\Debug\Garbe.Sound.dll
+C:\Users\Anas A. Ismail\Documents\Visual Studio 2010\Projects\Sound\obj\Debug\Garbe.Sound.pdb
+D:\Fcis\4th Year\1st Term\DSP\[Digital Signal Processing]WorkSpace\Sound\bin\Debug\Garbe.Sound.dll
+D:\Fcis\4th Year\1st Term\DSP\[Digital Signal Processing]WorkSpace\Sound\bin\Debug\Garbe.Sound.pdb
+D:\Fcis\4th Year\1st Term\DSP\[Digital Signal Processing]WorkSpace\Sound\obj\Debug\Garbe.Sound.dll
+D:\Fcis\4th Year\1st Term\DSP\[Digital Signal Processing]WorkSpace\Sound\obj\Debug\Garbe.Sound.pdb

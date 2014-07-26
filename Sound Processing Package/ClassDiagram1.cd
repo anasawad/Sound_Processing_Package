@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Garbe.Sound.Frequencias" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAACAAuAQAAAAAAAAA0AMAAAAAvgEAAAQ=</HashCode>
+      <FileName>Enum\Frequencias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.GainControl" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Controls\GainControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.Delay" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABARAAAAAAAAAAEAAAAAQEAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Delay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.Echo_Effect_Filter" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQACAAAAABAAAAAAAACAAAAAAAwAAAAAAAAAAg=</HashCode>
+      <FileName>Filters\Echo_Effect_Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.Gain" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Gain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.LowPass" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\LowPass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.Mixer" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABgCAAACAAEAAAAAAAQAAAAAAAAEAA=</HashCode>
+      <FileName>Mixer\Mixer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.WaveWriter" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKCAAIAAAAAAQBAAAAAIAAAAAAAAAAQAAAQAACAAAA=</HashCode>
+      <FileName>Sinks\WaveWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.SoundControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SoundObj\SoundControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Garbe.Sound.SoundObj" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAIAAABgAAAICAAAEBAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SoundObj\SoundObj.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Garbe.Sound.Impulse" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Sources\Impulse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.Step" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Sources\Step.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garbe.Sound.WaveReader" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAkBAAAkARgIAAQCAAAAChBCFAQAoxDABKACmA=</HashCode>
+      <FileName>Sources\WaveReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Garbe.Sound.ISoundControl" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>SoundObj\ISoundControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Garbe.Sound.ISoundObj" Collapsed="true">
+    <Position X="22.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABgAAAIAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoundObj\ISoundObj.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Garbe.Sound.Afinacoes" Collapsed="true">
+    <Position X="21" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Enum\Afinacoes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Garbe.Sound.Notas" Collapsed="true">
+    <Position X="22.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMA3AAAAAAAAAAAAuAQAgP0+AAAA/v8fAAAAgP8PAAA=</HashCode>
+      <FileName>Enum\Notas.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

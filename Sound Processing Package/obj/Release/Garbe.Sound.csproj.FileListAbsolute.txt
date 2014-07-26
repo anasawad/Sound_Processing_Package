@@ -1,0 +1,6 @@
+C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\bin\Release\Garbe.Sound.dll
+C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\obj\Release\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\bin\Release\Garbe.Sound.dll
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Release\ResolveAssemblyReference.cache
+D:\my files\Faculty Years\Post Graduade\Courses\DSP\2009-2010\DSP lab 4\Audio Processing\audio_process_ package-Template(Hand on)\Sound\obj\Release\Garbe.Sound.dll

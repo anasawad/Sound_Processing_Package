@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Garbe.Sound">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Muhammad\Desktop\audio_process_src\Sound\Garbe.Sound.sln">
+</Property><Property Name="Date" Value="21 اكتوبر, 2008">
+</Property><Property Name="Time" Value="23:23 م">
+</Property></Properties><Event ErrorLevel="0" Project="Garbe.Sound" Source="Garbe.Sound.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Garbe.Sound" Source="Garbe.Sound.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Garbe.Sound.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Garbe.Sound.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Garbe.Sound" Source="Garbe.Sound.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Garbe.Sound</name>
+    </assembly>
+    <members>
+        <member name="T:Garbe.Sound.Ambient">
+            <summary> Summary description for Ambient. </summary>
+        </member>
+        <member name="M:Garbe.Sound.Ambient.#ctor">
+            <summary> Summary description for Ambient. </summary>
+        </member>
+        <member name="M:Garbe.Sound.Ambient.#ctor(System.Single)">
+            <summary> Summary description for Ambient. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Ambient.Temperature">
+            <summary> Get or set the temperature of the ambient. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Ambient.Velocity">
+            <summary> Get velocity of the air in the ambient. </summary>
+        </member>
+        <member name="T:Garbe.Sound.Listener">
+            <summary> Summary description for Listener. </summary>
+        </member>
+        <member name="M:Garbe.Sound.Listener.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary> Summary description for Listener. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Listener.PositionX">
+            <summary> Get or set the x position of the listener </summary>
+        </member>
+        <member name="P:Garbe.Sound.Listener.PositionY">
+            <summary> Get or set the y position of the listener </summary>
+        </member>
+        <member name="P:Garbe.Sound.Listener.PositionZ">
+            <summary> Get or set the z position of the listener </summary>
+        </member>
+        <member name="P:Garbe.Sound.Listener.Angle">
+            <summary> Get or set the angle of the listener </summary>
+        </member>
+        <member name="T:Garbe.Sound.Room">
+            <summary> Summary description for Source. </summary>
+        </member>
+        <member name="M:Garbe.Sound.Room.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary> Summary description for Source. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Room.PositionX">
+            <summary> Get or set the x position of the source. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Room.PositionY">
+            <summary> Get or set the y position of the source. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Room.PositionZ">
+            <summary> Get or set the z position of the source. </summary>
+        </member>
+        <member name="T:Garbe.Sound.Source">
+            <summary> Summary description for Source. </summary>
+        </member>
+        <member name="M:Garbe.Sound.Source.#ctor(System.Single,System.Single,System.Single)">
+            <summary> Summary description for Source. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Source.PositionX">
+            <summary> Get or set the x position of the source. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Source.PositionY">
+            <summary> Get or set the y position of the source. </summary>
+        </member>
+        <member name="P:Garbe.Sound.Source.PositionZ">
+            <summary> Get or set the z position of the source. </summary>
+        </member>
+        <member name="T:Garbe.Sound.Distance">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="T:Garbe.Sound.SoundObj">
+            <summary> Basic Implemantation of ISoundObj and ISoundControl interfaces </summary>
+        </member>
+        <member name="F:Garbe.Sound.SoundObj._output">
+            <summary> Store the data the will be used as output signal </summary>
+        </member>
+        <member name="F:Garbe.Sound.SoundObj._input">
+            <summary> Store the object the is used as input signal </summary>
+        </member>
+        <member name="M:Garbe.Sound.SoundObj.#ctor">
+            <summary> Basic Implemantation of ISoundObj and ISoundControl interfaces </summary>
+        </member>
+        <member name="M:Garbe.Sound.SoundObj.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundObj.Output">
+            <summary> Get the output Signal </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundObj.Input">
+            <summary> Get or Set the input object </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundObj.Enable">
+            <summary> Turns on or off the control of the signal </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundObj.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundObj.SampleRate">
+            <summary> Gets the sample rate of the signal </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundObj.NumChannels">
+            <summary> Gets the number of channels of the signal </summary>
+        </member>
+        <member name="M:Garbe.Sound.Distance.#ctor(Garbe.Sound.Source,Garbe.Sound.Listener,Garbe.Sound.Ambient,System.UInt32)">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.Distance.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Distance.Input">
+            <summary> Get or Set the input object </summary>
+        </member>
+        <member name="P:Garbe.Sound.Distance.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.DudaHRTFLeft">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.DudaHRTFLeft.#ctor(Garbe.Sound.Source,Garbe.Sound.Listener,Garbe.Sound.Ambient,System.UInt32)">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.DudaHRTFLeft.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.DudaHRTFLeft.Input">
+            <summary> Get or Set the input object </summary>
+        </member>
+        <member name="P:Garbe.Sound.DudaHRTFLeft.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.DudaHRTFRight">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.DudaHRTFRight.#ctor(Garbe.Sound.Source,Garbe.Sound.Listener,Garbe.Sound.Ambient,System.UInt32)">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.DudaHRTFRight.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.DudaHRTFRight.Input">
+            <summary> Get or Set the input object </summary>
+        </member>
+        <member name="P:Garbe.Sound.DudaHRTFRight.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.DelayAux">
+            <summary>
+            Summary description for DelayAux.
+            </summary>
+        </member>
+        <member name="T:Garbe.Sound.GainControl">
+            <summary> GainControl </summary>
+        </member>
+        <member name="M:Garbe.Sound.GainControl.#ctor">
+            <summary> GainControl </summary>
+        </member>
+        <member name="T:Garbe.Sound.Afinacoes">
+            <summary> Enumarate the Tunings that you can use </summary>
+        </member>
+        <member name="F:Garbe.Sound.Afinacoes.TET12">
+            <summary> 12 Equal Tuning </summary>
+        </member>
+        <member name="T:Garbe.Sound.Frequencias">
+            <summary> Calculate a Frequency based in some note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.C">
+            <summary> C Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Cs">
+            <summary> C# Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Db">
+            <summary> Db Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.D">
+            <summary> D Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Ds">
+            <summary> D# Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Eb">
+            <summary> Eb Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.E">
+            <summary> E Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.F">
+            <summary> F Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Fs">
+            <summary> F# Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Gb">
+            <summary> Gb Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.G">
+            <summary> G Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Gs">
+            <summary> G# Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Ab">
+            <summary> Ab Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.A">
+            <summary> A Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.As">
+            <summary> A# Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.Bb">
+            <summary> Bb Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.B">
+            <summary> B Note Proportion in relation to C </summary>
+        </member>
+        <member name="F:Garbe.Sound.Frequencias.TET12">
+            <summary> All the notes proportion in relation to C </summary>
+        </member>
+        <member name="M:Garbe.Sound.Frequencias.Freq(Garbe.Sound.Notas)">
+            <summary> Calculates the Frequency of the note </summary>
+            <param name="nota">Note</param>
+            <returns>Frequency of the note</returns>
+        </member>
+        <member name="M:Garbe.Sound.Frequencias.Freq(Garbe.Sound.Notas,System.Double)">
+            <summary> Calculates the Frequency of the note </summary>
+            <param name="nota">Note</param>
+            <param name="valorLa">Value of the A note in frequency</param>
+            <returns>Frequency of the note</returns>
+        </member>
+        <member name="M:Garbe.Sound.Frequencias.Freq(Garbe.Sound.Notas,Garbe.Sound.Afinacoes,System.Double)">
+            <summary> Calculates the Frequency of the note </summary>
+            <param name="nota">Note</param>
+            <param name="afn">Tunning used to calculate the frequency</param>
+            <param name="valorLa">Value of the A note in frequency</param>
+            <returns>Frequency of the note</returns>
+        </member>
+        <member name="T:Garbe.Sound.Notas">
+            <summary> Enumarate the notes in the 10 oitaves hearded </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C0">
+            <summary> C0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs0">
+            <summary> C#0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db0">
+            <summary> Db0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D0">
+            <summary> D0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds0">
+            <summary> D#0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb0">
+            <summary> Eb0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E0">
+            <summary> E0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F0">
+            <summary> F0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs0">
+            <summary> F#0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb0">
+            <summary> Gb0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G0">
+            <summary> G0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs0">
+            <summary> G#0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab0">
+            <summary> Ab0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A0">
+            <summary> A0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As0">
+            <summary> As0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb0">
+            <summary> Bb0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B0">
+            <summary> B0 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C1">
+            <summary> C1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs1">
+            <summary> C#1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db1">
+            <summary> Db1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D1">
+            <summary> D1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds1">
+            <summary> Ds1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb1">
+            <summary> Eb1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E1">
+            <summary> E1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F1">
+            <summary> F1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs1">
+            <summary> F#1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb1">
+            <summary> Gb1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G1">
+            <summary> G1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs1">
+            <summary> G#1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab1">
+            <summary> Ab1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A1">
+            <summary> A1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As1">
+            <summary> A#1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb1">
+            <summary> Bb1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B1">
+            <summary> B1 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C2">
+            <summary> C2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs2">
+            <summary> C#2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db2">
+            <summary> Db2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D2">
+            <summary> D2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds2">
+            <summary> D#2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb2">
+            <summary> Eb2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E2">
+            <summary> E2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F2">
+            <summary> F2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs2">
+            <summary> F#2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb2">
+            <summary> Gb2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G2">
+            <summary> G2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs2">
+            <summary> G#2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab2">
+            <summary> Ab2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A2">
+            <summary> A2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As2">
+            <summary> A#2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb2">
+            <summary> Bb2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B2">
+            <summary> B2 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C3">
+            <summary> C3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs3">
+            <summary> C#3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db3">
+            <summary> Db3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D3">
+            <summary> D3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds3">
+            <summary> D#3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb3">
+            <summary> Eb3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E3">
+            <summary> E3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F3">
+            <summary> F3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs3">
+            <summary> F#3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb3">
+            <summary> Gb3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G3">
+            <summary> G3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs3">
+            <summary> G#3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab3">
+            <summary> Ab3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A3">
+            <summary> A3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As3">
+            <summary> A#3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb3">
+            <summary> Bb3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B3">
+            <summary> B3 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C4">
+            <summary> C4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs4">
+            <summary> C#4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db4">
+            <summary> Db4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D4">
+            <summary> D4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds4">
+            <summary> D#4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb4">
+            <summary> Eb4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E4">
+            <summary> E4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F4">
+            <summary> F4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs4">
+            <summary> F#4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb4">
+            <summary> Gb4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G4">
+            <summary> G4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs4">
+            <summary> G#4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab4">
+            <summary> Ab4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A4">
+            <summary> A4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As4">
+            <summary> A#4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb4">
+            <summary> Bb4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B4">
+            <summary> B4 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C5">
+            <summary> C5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs5">
+            <summary> C#5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db5">
+            <summary> Db5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D5">
+            <summary> D5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds5">
+            <summary> D#5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb5">
+            <summary> Eb5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E5">
+            <summary> E5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F5">
+            <summary> F5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs5">
+            <summary> F#5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb5">
+            <summary> Gb5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G5">
+            <summary> G5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs5">
+            <summary> G#5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab5">
+            <summary> Ab5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A5">
+            <summary> A5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As5">
+            <summary> A#5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb5">
+            <summary> Bb5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B5">
+            <summary> B5 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C6">
+            <summary> C6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs6">
+            <summary> C#6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db6">
+            <summary> Db6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D6">
+            <summary> D6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds6">
+            <summary> D#6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb6">
+            <summary> Eb6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E6">
+            <summary> E6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F6">
+            <summary> F6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs6">
+            <summary> F#6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb6">
+            <summary> Gb6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G6">
+            <summary> G6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs6">
+            <summary> Gs6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab6">
+            <summary> Ab6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A6">
+            <summary> A6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As6">
+            <summary> A#6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb6">
+            <summary> Bb6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B6">
+            <summary> B6 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.C7">
+            <summary> C7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Cs7">
+            <summary> C#7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Db7">
+            <summary> Db7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.D7">
+            <summary> D7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ds7">
+            <summary> D#7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Eb7">
+            <summary> Eb7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.E7">
+            <summary> E7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.F7">
+            <summary> F7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Fs7">
+            <summary> F#7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gb7">
+            <summary> Gb7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.G7">
+            <summary> G7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Gs7">
+            <summary> G#7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Ab7">
+            <summary> Ab7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.A7">
+            <summary> A7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.As7">
+            <summary> A#7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.Bb7">
+            <summary> Bb7 Note </summary>
+        </member>
+        <member name="F:Garbe.Sound.Notas.B7">
+            <summary> B7 Note </summary>
+        </member>
+        <member name="T:Garbe.Sound.AllPass">
+            <summary> Calculate the signal with a all pass filter </summary>
+        </member>
+        <member name="M:Garbe.Sound.AllPass.#ctor(System.Single,System.Int32)">
+            <summary> Calculate the signal with a all pass filter </summary>
+            <param name="g">Value of the gain of the all pass filter</param>
+            <param name="d">Value of the delay of the all pass filter</param>
+        </member>
+        <member name="M:Garbe.Sound.AllPass.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="M:Garbe.Sound.AllPass.Reset">
+            <summary> Erase the data in the buffer of the delay </summary>
+        </member>
+        <member name="P:Garbe.Sound.AllPass.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.Delay">
+            <summary> Create a delay of certain sample numbers in the signal </summary>
+        </member>
+        <member name="M:Garbe.Sound.Delay.#ctor(System.Int32)">
+            <summary> Create a delay of certain sample numbers in the signal </summary>
+            <param name="x">Number of samples delayed inthe signal</param>
+        </member>
+        <member name="M:Garbe.Sound.Delay.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Delay.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.Gain">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.Gain.#ctor(System.Single)">
+            <summary> Calculate the signal with some gain </summary>
+            <param name="g">Value of the gain</param>
+        </member>
+        <member name="M:Garbe.Sound.Gain.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Gain.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.LowPass">
+            <summary> Calculate the signal with a low pass filter </summary>
+        </member>
+        <member name="M:Garbe.Sound.LowPass.#ctor(System.Single)">
+            <summary> Calculate the signal with a low pass filter </summary>
+            <param name="g">Value of the gain of the low pass filter</param>
+        </member>
+        <member name="M:Garbe.Sound.LowPass.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.LowPass.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.NestedAllPass">
+            <summary> Calculate the signal with a all pass filter </summary>
+        </member>
+        <member name="M:Garbe.Sound.NestedAllPass.#ctor(System.Single,System.Single,System.Int32,System.Int32)">
+            <summary> Calculate the signal with a all pass filter </summary>
+            <param name="g1">Value of the internal gain of the nested all pass filter</param>
+            <param name="g2">Value of the external gain of the nested all pass filter</param>
+            <param name="d1">Value of the internal delay of the nested all pass filter</param>
+            <param name="d2">Value of the external delay of the nested all pass filter</param>
+        </member>
+        <member name="M:Garbe.Sound.NestedAllPass.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.NestedAllPass.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.NestedAllPass.Input">
+            <summary> Get or Set the input object </summary>
+        </member>
+        <member name="T:Garbe.Sound.Mixer">
+            <summary> Calculate the mixing signal from a collection of source signals </summary>
+        </member>
+        <member name="M:Garbe.Sound.Mixer.#ctor(System.UInt16)">
+            <summary> Calculate the mixing signal from a collection of source signals </summary>
+            <param name="c">Number of channels</param>
+        </member>
+        <member name="M:Garbe.Sound.Mixer.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Mixer.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Mixer.NumChannels">
+            <summary> Gets the number of channels of the signal </summary>
+        </member>
+        <member name="P:Garbe.Sound.Mixer.Item(System.Int32)">
+            <summary> Gets or Sets the source signals of each channel </summary>
+        </member>
+        <member name="T:Garbe.Sound.SmallGardnerReverb">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.SmallGardnerReverb.#ctor(Garbe.Sound.Source,Garbe.Sound.Listener,Garbe.Sound.Ambient,System.UInt32)">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.SmallGardnerReverb.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.SmallGardnerReverb.Input">
+            <summary> Get or Set the input object </summary>
+        </member>
+        <member name="P:Garbe.Sound.SmallGardnerReverb.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.WaveWriter">
+            <summary> Write the samples processed in a wave file </summary>
+        </member>
+        <member name="M:Garbe.Sound.WaveWriter.#ctor(System.String,System.UInt16,System.UInt32,System.UInt16)">
+            <summary> Write the samples processed in a wave file </summary>
+            <param name="fileName">Name of the wave file</param>
+            <param name="numChannels">Number of channels of the wave file</param>
+            <param name="sampleRate">Sample rate of the wave file</param>
+            <param name="bitsPerSample">Bits per sample of the wave file</param>
+        </member>
+        <member name="M:Garbe.Sound.WaveWriter.#ctor(System.String,System.UInt16,System.UInt32,System.UInt16,System.Single,System.Boolean)">
+            <summary> Write the samples processed in a wave file </summary>
+            <param name="fileName">Name of the wave file</param>
+            <param name="numChannels">Number of channels of the wave file</param>
+            <param name="sampleRate">Sample rate of the wave file</param>
+            <param name="bitsPerSample">Bits per sample of the wave file</param>
+            <param name="rewrite">Rewrite the file if it already exists</param>
+            <param name="g">Gain aplied to the signal when converted from 32 to 16 bits</param>
+        </member>
+        <member name="M:Garbe.Sound.WaveWriter.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="M:Garbe.Sound.WaveWriter.Close">
+            <summary> Close the wave file </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveWriter.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.SoundControl">
+            <summary> Basic implementation of the ISoundControl </summary>
+        </member>
+        <member name="M:Garbe.Sound.SoundControl.#ctor">
+            <summary> SoundControl Constructor </summary>
+        </member>
+        <member name="M:Garbe.Sound.SoundControl.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.SoundControl.Enable">
+            <summary> Turns on or off the control of the signal </summary>
+        </member>
+        <member name="T:Garbe.Sound.Impulse">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.Impulse.#ctor(System.Single)">
+            <summary> Calculate the signal with some gain </summary>
+            <param name="i">Value of the gain</param>
+        </member>
+        <member name="M:Garbe.Sound.Impulse.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Impulse.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.Step">
+            <summary> Calculate the signal with some gain </summary>
+        </member>
+        <member name="M:Garbe.Sound.Step.#ctor(System.Single)">
+            <summary> Calculate the signal with some gain </summary>
+            <param name="i">Value of the gain</param>
+        </member>
+        <member name="M:Garbe.Sound.Step.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.Step.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="T:Garbe.Sound.WaveReader">
+            <summary> Read a wave file </summary>
+        </member>
+        <member name="M:Garbe.Sound.WaveReader.#ctor(System.String)">
+            <summary> Read a wave file </summary>
+            <param name="fileName">Name of the wave file</param>
+        </member>
+        <member name="M:Garbe.Sound.WaveReader.DoProcess">
+            <summary> Do the signal processing </summary>
+        </member>
+        <member name="M:Garbe.Sound.WaveReader.Close">
+            <summary> Close the wave file </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Interations">
+            <summary> Number of interations expected to do the signal processing </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.NumChannels">
+            <summary> Gets the number of channels of the signal </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.SampleRate">
+            <summary> Gets the sample rate of the signal </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Riff">
+            <summary> Get the RIFF tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Lenght">
+            <summary> Get the Lenght tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Wave">
+            <summary> Get the Wave tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Format">
+            <summary> Get the Format tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Size">
+            <summary> Get the Size tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.AudioFormat">
+            <summary> Get the Audio Format tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.ByteRate">
+            <summary> Get the Byte Rate tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.BlockAlign">
+            <summary> Get the Block Align tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.BitsPerSamples">
+            <summary> Get the Bits per Samples tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.Data">
+            <summary> Get the Data tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.DataSize">
+            <summary> Get the Data Size tag </summary>
+        </member>
+        <member name="P:Garbe.Sound.WaveReader.EOF">
+            <summary> Get the information if the End of File is reached </summary>
+        </member>
+    </members>
+</doc>

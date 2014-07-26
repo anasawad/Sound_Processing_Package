@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Garbe.Sound</name>
+    </assembly>
+    <members>
+        <member name="T:Garbe.Sound.Kernel32">
+            <summary>
+            Nada!!!
+            </summary>
+        </member>
+    </members>
+</doc>
